@@ -32,7 +32,7 @@ http://www.inspirel.com/vera
 Building
 --------
 
-This version requires CMake 3.6+ as the output in RPM Format and uses the
+This version requires CMake 3.6+ as the output in RPM Format uses the
 current linux package naming convention including the version, package
 release, distro and arch. 
 
