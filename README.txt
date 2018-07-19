@@ -29,3 +29,13 @@ Origins
 Vera++ was initially hosted at:
 http://www.inspirel.com/vera
 
+Building
+--------
+
+This version requires CMake 3.6+ as the output in RPM Format and uses the
+current linux package naming convention including the version, package
+release, distro and arch. 
+
+Examples: 
+   vera++-1.3.0-1.el6.x86_64.rpm (CentOS 6)
+   vera++-1.3.0-1.el7.x86_64.rpm (CentOS 7)
