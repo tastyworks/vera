@@ -18,7 +18,7 @@ if(VERA_USE_SYSTEM_BOOST)
   else()
     # expose the Boost_USE_STATIC_LIBS option to ease the manual creation of
     # packages with cpack
-    option(Boost_USE_STATIC_LIBS "Use Boost static libraries" OFF)
+    option(Boost_USE_STATIC_LIBS "Use Boost static libraries" ON)
   endif()
   find_package(Boost COMPONENTS ${boostLibs} REQUIRED)
   include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
