@@ -1,5 +1,5 @@
-# CMake 3.6 is required to properly conform to the Fedora RPM standards
-cmake_minimum_required(VERSION 3.6)
+# CMake 3.5 is required to properly conform to the Fedora RPM standards
+cmake_minimum_required(VERSION 3.5)
 
 if(APPLE)
   option(CPACK_BINARY_PACKAGEMAKER "Enable to build PackageMaker packages" ON)
